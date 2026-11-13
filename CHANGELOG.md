@@ -2,34 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.1.0] - 2026-09-27
+## [0.1.0] - 2026-11-13
 
 ### Added
 
-- Initial public release.
-- Lightweight Controller-View PHP framework.
-- Minimal ready-to-use application skeleton.
-- Controller, view and routing support.
-- Application-level base controller.
-- Reusable view elements.
-- Layout support.
-- Flash message support.
-- Optional application session support.
-- Optional absolute application URL support.
-- MySQLi database connection support.
-- Application and database configuration files.
-- Development and production environment configuration.
-- CLI script support.
-- Web-based CLI execution support for development.
-- Automatic CLI run logging with unique numeric run IDs.
-- Optional CLI logging.
-- Central PHP error logging.
-- Daily CLI log directory structure.
-- Configurable application timezone, language, title and version.
-- Apache URL rewriting.
-- Subdirectory installation support.
-- Basic CSS and JavaScript application files.
-- Optional Composer package support.
+- Initial Notelist application built on VC Framework with PHP 5.3+ compatibility.
+- MySQLi-backed per-user plaintext notes with creation, editing, renaming and deletion.
+- B, P and W note lists, displayed only when they contain at least one note.
+- Note ordering by title and movement between lists through the editor.
+- Notepad-style editor with separate title and content fields.
+- Manual saving with Ctrl+S / Cmd+S support and a character count.
+- Unsaved-change warnings and deletion confirmation.
+- Shared login with Lifelist, Playlist and Todolist using the existing users table and PHP session.
+- CSRF protection, user-scoped database operations and flash messages.
+- Responsive Hungarian interface without external frontend dependencies.
+- Optional database table prefixes, absolute application URL and subdirectory support.
+- Apache URL rewriting and module discovery through the shared topbar.
 - No Composer dependency.
-- No external PHP framework dependency.
-- PHP 5.3+ compatibility.
